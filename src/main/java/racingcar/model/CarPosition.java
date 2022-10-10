@@ -9,6 +9,10 @@ public class CarPosition {
         this.carPosition = Constants.DEFAULT_CAR_POSITION;
     }
 
+    public CarPosition(Integer newPosition) {
+        this.carPosition = newPosition;
+    }
+
     public Integer getCarPosition() {
         return this.carPosition;
     }
