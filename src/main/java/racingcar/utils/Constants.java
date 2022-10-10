@@ -10,4 +10,11 @@ public class Constants {
 
     public static final String ERROR_PREFIX = "[ERROR] ";
     public static final String ERROR_ILLEGAL_CAR_NAME = "자동차 이름은 빈 값 일 수 없고, 5자를 초과할 수 없습니다.";
+    public static final String ERROR_ILLEGAL_ACCESS = "해당 위치의 자동차가 없습니다.";
+    public static final String ERROR_ILLEGAL_NUMBER_INPUT = "숫자만 입력해야 합니다.";
+    public static final String ERROR_ILLEGAL_RANGE_NUMBER_INPUT = "1 이상의 숫자를 입력해야 합니다.";
+
+    public static final String MESSAGE_CAR_NAME_INPUT = "경주할 자동차 이름을 입력하세요.";
+    public static final String MESSAGE_CAR_NAME_CONDITION = "(이름은 쉼표(,) 기준으로 구분)";
+    public static final String MESSAGE_GAME_REPEAT_COUNT = "시도할 회수는 몇회인가요?";
 }
