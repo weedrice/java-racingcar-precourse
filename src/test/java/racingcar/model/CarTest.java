@@ -30,4 +30,12 @@ public class CarTest {
         car.moveCarPosition(fixedMovingNumber.getGeneratedNumber());
         Assertions.assertEquals(Constants.CAR_MOVING_AMOUNT, car.getCarPosition());
     }
+
+    @Test
+    void compareCarTest() {
+        CarName carName = new CarName(testCarName);
+        Car car = new Car(carName);
+
+        Assertions.assertEquals(car, car.comparePosition(new CarPosition(0)));
+    }
 }

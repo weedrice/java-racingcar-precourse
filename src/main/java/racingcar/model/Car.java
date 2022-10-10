@@ -1,5 +1,6 @@
 package racingcar.model;
 
+import java.util.Objects;
 import racingcar.utils.Constants;
 
 public class Car {
@@ -15,6 +16,14 @@ public class Car {
         if(randomNumber >= Constants.CAR_MOVING_CONDITION) {
             this.carPosition = new CarPosition(this.getCarPosition() + Constants.CAR_MOVING_AMOUNT);
         }
+    }
+
+    public Car comparePosition(CarPosition carPosition) {
+        if(Objects.equals(this.carPosition.getCarPosition(), carPosition.getCarPosition())) {
+            return this;
+        }
+
+        return null;
     }
 
     public String getCarName() {
