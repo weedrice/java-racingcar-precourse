@@ -17,4 +17,8 @@ public class Constants {
     public static final String MESSAGE_CAR_NAME_INPUT = "경주할 자동차 이름을 입력하세요.";
     public static final String MESSAGE_CAR_NAME_CONDITION = "(이름은 쉼표(,) 기준으로 구분)";
     public static final String MESSAGE_GAME_REPEAT_COUNT = "시도할 회수는 몇회인가요?";
+    public static final String MESSAGE_CAR_INFO_PRINT = "%s : %s\n";
+    public static final String MESSAGE_FINAL_WINNER = "최종 우승자 : ";
+
+    public static final String DIV = ", ";
 }
